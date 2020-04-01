@@ -24,4 +24,16 @@ func TypesofLoops() {
 		fmt.Printf("\nvalue of 2 * %d = %d", i, i*2)
 		i++
 	}
+
+}
+
+//ReverString function for reverse a string
+func ReverString(txt string) string {
+	var str string
+	sl := len(txt)
+	for sl >= 1 {
+		str = str + txt[sl-1:sl]
+		sl--
+	}
+	return str
 }
