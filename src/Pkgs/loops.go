@@ -2,7 +2,7 @@ package pkgs
 
 import "fmt"
 
-//TypesofLoops is UDF
+//TypesofLoops is as sample UDF function 
 func TypesofLoops() {
 	// example of a for loop
 	fmt.Println("\n----------------------Table of 9 --------------------------")
@@ -27,8 +27,8 @@ func TypesofLoops() {
 
 }
 
-//ReverString function for reverse a string
-func ReverString(txt string) string {
+//StrRev function for reverse a string
+func StrRev(txt string) string {
 	var str string
 	sl := len(txt)
 	for sl >= 1 {
