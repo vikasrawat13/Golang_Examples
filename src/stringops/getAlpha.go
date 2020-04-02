@@ -2,7 +2,7 @@ package stringops
 
 import "regexp"
 
-//GetAlpha function to extract alphabets from a strings
+//GetAlpha function to extract alphabets from a given strings
 func GetAlpha(str string) string {
 	reg, err := regexp.Compile("[^a-zA-Z]+")
 	if err != nil {
