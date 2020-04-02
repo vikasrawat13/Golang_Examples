@@ -2,7 +2,7 @@ package pkgs
 
 import "fmt"
 
-//TypesofLoops is as sample UDF function 
+//TypesofLoops is as sample UDF function
 func TypesofLoops() {
 	// example of a for loop
 	fmt.Println("\n----------------------Table of 9 --------------------------")
