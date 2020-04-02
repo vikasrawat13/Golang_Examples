@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	//calling all UDF functions
+	//calling all functions exists under pkgs
 	p.SampleFunc()
 	p.TypesofLoops()
 	p.IfElseFunc()
