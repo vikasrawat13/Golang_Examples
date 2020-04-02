@@ -1,7 +1,7 @@
 package stringops
 
 //StrReverse function is used to revese a string
-//Return the reversed string or 'empty string given' when an empty string passed
+//Return the reversed string or 'empty string given' when an blank string passed
 func StrReverse(str string) string {
 	var txt string
 	if len(str) == 0 {
